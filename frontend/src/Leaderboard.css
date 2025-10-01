@@ -1,0 +1,35 @@
+/* Leaderboard container styles */
+.leaderboard-container {
+  width: 400px; /* Full width container */
+  display: flex; /* Use Flexbox for centering or positioning */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align to the left */
+  justify-content: center;
+  margin-left: 200px; /* Adjust this value to move the leaderboard to the left */
+	margin-top:50px;
+	font-family:"Bowlby One", sans-serif;
+}
+
+/* Table styling */
+.table {
+  width: 400px; /* Adjust the width of the leaderboard table */
+  border-collapse: collapse; /* Make table borders cleaner */
+}
+
+.table th, .table td {
+  border: 1px solid #ddd; /* Add table borders */
+  padding: 8px; /* Add padding inside table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.table th {
+  background-color: rgb(226, 241, 231); /* Give table headers a background color */
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: rgb(226, 241, 231); /* Add striping effect to the table */
+}
+
+.table-striped tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+}
